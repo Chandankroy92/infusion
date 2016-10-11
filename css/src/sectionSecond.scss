@@ -10,8 +10,11 @@
     	padding: 13px;
     	/*border: 12px solid #63C6AF;*/
 	}
-	.btn1:hover{
-		background-color: #000;
+	.btn1{
+		&:hover{
+			transition:all ease 0.9s;
+			background-color: #000;
+		}
 	}
 	.btn2{
 		background-color: #000;
@@ -22,6 +25,7 @@
     	/*border: 12px solid #000;*/
 	}
 	.btn2:hover{
+		transition:all ease 0.9s;
 		background-color: #63C6AE;
 	}
 }

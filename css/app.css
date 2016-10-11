@@ -13,27 +13,35 @@ header .navbar2 {
   background-color: #63C6AE; }
 
 #landing {
-  /*width: 100%;
-  height: 700px;
-  background-image: url('../images/landing_image.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;*/ }
+  position: relative; }
   #landing .video_responsive {
     width: 100%;
     object-fit: cover;
-    height: 100vh; }
-
-#searchForm {
-  position: relative; }
-  #searchForm .container1 {
+    /*height: 100vh;*/ }
+  #landing .searchBox {
     position: absolute;
-    top: -240px;
-    right: 0px; }
-  #searchForm .btn-info {
-    background-color: #63C6AE;
-    border-color: #63C6AE; }
+    top: 50%;
+    right: 0;
+    left: 0;
+    width: 50%; }
+    #landing .searchBox .custom {
+      text-align: center;
+      color: #FFFFFF; }
+    #landing .searchBox .btn-info {
+      background-color: #63C6AE; }
+  #landing .video-overlay {
+    background-color: rgba(0, 0, 0, 0.52) !important;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0; }
 
+@media screen and (max-width: 480px) {
+  #landing .searchBox {
+    width: auto; } }
+@media screen and (max-width: 480px) {
+  #landing .video_responsive {
+    height: 100vh; } }
 #sectionFirst {
   padding-top: 70px;
   padding-bottom: 70px; }
@@ -41,8 +49,10 @@ header .navbar2 {
     padding: 7px;
     border: 2px solid gray; }
   #sectionFirst .border1:hover {
-    background-color: #63C6AE;
-    color: #FFF; }
+    transition: all ease 0.6s;
+    background-color: #63C6AE; }
+    #sectionFirst .border1:hover .caption {
+      color: #FFFFFF !important; }
   #sectionFirst .img2 {
     margin: 0 auto; }
   #sectionFirst .headding1 {
@@ -60,6 +70,7 @@ header .navbar2 {
     padding: 13px;
     /*border: 12px solid #63C6AF;*/ }
   #sectionSecond .btn1:hover {
+    transition: all ease 0.9s;
     background-color: #000; }
   #sectionSecond .btn2 {
     background-color: #000;
@@ -69,6 +80,7 @@ header .navbar2 {
     padding: 13px;
     /*border: 12px solid #000;*/ }
   #sectionSecond .btn2:hover {
+    transition: all ease 0.9s;
     background-color: #63C6AE; }
 
 #sectionThird {
@@ -102,6 +114,10 @@ header .navbar2 {
   background-color: #242a2c;
   padding-top: 60px;
   padding-bottom: 60px; }
+  #sectionFourth .carousel-control.left {
+    background-image: none; }
+  #sectionFourth .carousel-control.right {
+    background-image: none; }
 
 #sectionFifth {
   padding-top: 60px;

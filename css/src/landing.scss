@@ -1,13 +1,47 @@
 #landing{
-	/*width: 100%;
-	height: 700px;
-	background-image: url('../images/landing_image.jpg');
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: 50% 50%;*/
+	position: relative;
+	
 	.video_responsive{
-	width: 100%;
-    object-fit: cover;
-    height: 100vh;
+		width: 100%;
+	    object-fit: cover;
+		/*height: 100vh;*/
+	}
+	.searchBox{
+		position: absolute;
+	    top: 50%;
+	    right: 0;
+	    left: 0;
+	    width: 50%;
+	    .custom{
+	    	text-align: center;
+	    	color: #FFFFFF;
+	    }
+	    .btn-info{
+	    	background-color: #63C6AE;
+	    }
+	}
+	.video-overlay{
+		background-color: rgba(0, 0, 0, 0.52) !important;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
 	}
 }
+
+@media screen and (max-width:480px){
+	#landing{
+		.searchBox{
+			width: auto;
+		}
+	}
+}
+
+@media screen and(max-width: 480px){
+	#landing{
+		.video_responsive{
+			height: 100vh;
+		}
+	}
+}
+	
