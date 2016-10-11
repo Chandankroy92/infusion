@@ -1,0 +1,29 @@
+#sectionFifth{
+	padding-top: 60px;
+	padding-bottom: 60px;
+
+	ul{
+		list-style: none;
+		padding-top: 45px;
+    font-size: 15px;
+
+		li{
+			padding-bottom: 15px;
+		}
+	}
+	.link1{
+		height: 283px;
+    background-color: #f8f8f8;
+	}
+
+	a{
+		text-align: center;
+		font-weight: bold;
+	}
+	.img2{
+		margin: 0 auto;
+	}
+	.img2:hover{
+		opacity: 0.6;
+	}
+}

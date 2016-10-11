@@ -1,0 +1,39 @@
+#sectionThird{
+	padding-top: 60px;
+    padding-bottom: 60px;
+
+    .headding1{
+    	background-color: #63C6AE;
+    	color: #FFFFFF;
+    	text-transform: uppercase;
+
+    	.latest{
+    		padding-left: 90px;
+    		font-weight: bold;
+    	}
+    }
+    .img1{
+        width: 100%;
+    }
+	.smallimages{
+		padding: 0;
+	}
+    .smallimages:hover{
+        opacity: 0.6;
+
+        .text-overlay{
+           visibility: visible; 
+        }
+
+    }
+
+    .text-overlay {
+    position: absolute;
+    top: 73%;
+     visibility: hidden; 
+    background-color: #242A2D;
+    color: #fff;
+    padding: 20px 20px;
+    margin: 0;
+}
+}

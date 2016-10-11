@@ -1,0 +1,27 @@
+#sectionSecond{
+	background-color: #f8f8f8;
+    padding-top: 60px;
+    padding-bottom: 60px;
+	.btn1{
+		background-color: #63C6AE;
+		text-transform: uppercase;
+		color: #FFF;
+		font-weight: bold;
+    	padding: 13px;
+    	/*border: 12px solid #63C6AF;*/
+	}
+	.btn1:hover{
+		background-color: #000;
+	}
+	.btn2{
+		background-color: #000;
+		text-transform: uppercase;
+		color: #FFF;
+		font-weight: bold;
+    	padding: 13px;
+    	/*border: 12px solid #000;*/
+	}
+	.btn2:hover{
+		background-color: #63C6AE;
+	}
+}
